@@ -5,10 +5,10 @@ console.log(randomVariable1);
 console.log(randomVariable2);
 
 var randomDiceImage1="dice" + randomVariable1 +".png";
-var randomImg1="images/" + randomDiceImage1;
+var randomImg1= randomDiceImage1;
 
 var randomDiceImage2="dice" + randomVariable2 +".png";
-var randomImg2="images/" + randomDiceImage2;
+var randomImg2=randomDiceImage2;
 
 document.querySelectorAll("img")[0].setAttribute("src", randomImg1);
 document.querySelectorAll("img")[1].setAttribute("src", randomImg2);
